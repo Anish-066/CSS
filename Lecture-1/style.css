@@ -1,0 +1,50 @@
+/* Declaration block */
+ h1{
+     /*h1 is selectore  */
+
+    /* this is a rule */
+    color: red;
+}
+
+/*   select all h1 from html and apply  */
+
+h2{
+
+    color: aqua;
+}
+
+/* p{ */
+
+    color: green;
+    /* Change hoga but inline wins becoz 
+    inline ke changes honge always agr same tag ko external se bhi kiya toh.  */
+}
+button:hover{
+    color: blue;
+    background-color: red;
+
+}
+body{
+    text-align: center;
+}
+#test-elem{
+    color: blue;
+}
+.succes{
+    color: brown;
+}
+/*  in class and id ,id will have more priority */
+p.para{
+    color: blue;
+}
+div>p{
+    color: red;
+    /* this is a (>) direct child selector(direct selector) 
+    (yeh selectore sirf jisko angular point karega usko hi color karega*/
+}
+div p{
+    color: brown;
+    /* witing as div space p is known as descendant  selectore.
+    (yeh selectore sab bacho ko color karega joh bhi dev ke andar h. */
+}
+/* in case of same specificity - neeche wala/las t wala is applied */
