@@ -1,0 +1,30 @@
+.bg-danger {
+
+    background-color: rgb(124, 201, 146);
+
+
+    height: 300px;
+    width: 300px;
+
+    background-color: green;
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    background-position: center center;
+    background-size: cover;
+
+
+
+}
+
+#para {
+
+    color: blue;
+}
+
+/* *{
+
+    background-color: rgb(134, 134, 184);
+    border: 2px solid  black;
+}  */
+/*  Background size always maintain his aspect size it will maintain height untill it reaches the minimum dimensions */

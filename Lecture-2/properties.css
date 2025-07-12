@@ -1,0 +1,52 @@
+/* Adjacent  sibling selector */
+/* neeche wala closest sibling */
+.para+h1 {
+
+    color: blue;
+}
+
+/* general sibling selector - neeche wale all siblings */
+.para~h1 {
+
+    color: green;
+}
+
+#box-model {
+
+    /* border-color: green;
+border-width: 3px;
+    border-style: solid; */
+    /* shorthand property */
+
+
+     border: 3px dashed black;
+    width: 300px;
+    height: 300px; 
+    /* border is wrtten as (width   style    color)   */
+    margin: auto;
+
+    padding: 30px 40px 20px 50px;
+    /* padding: top right bottom left */
+
+    /* margin: 20px 30px 40px 50px; */
+    /* In this case margin of padding and margin of h2 tag collapse.
+    And did not get any extra space. */
+
+    padding: 30px; 
+    /* All sides will be 30 */
+
+    /* padding: 50px 60px; */
+    /* padding: top-bottom   right-left */
+
+    border-radius: 50%;
+    /* border-radius 50%means 50% of its corresponding dimensions. */
+
+
+
+
+
+}
+
+#h2 {
+    text-align: center;
+}
