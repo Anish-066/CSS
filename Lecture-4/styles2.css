@@ -1,0 +1,19 @@
+ #bell{
+    /* height: 200px;
+    width: 200px; */
+    /* THIS WILL NOT HAPPEN */
+    font-size: 100px;
+} 
+.parent{
+  width: 900px;
+  height: 500px;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.parent , .child{
+    border: 2px solid black;
+    text-align: center;
+}
