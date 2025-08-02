@@ -1,0 +1,79 @@
+p {
+    border: 2px solid rgb(250, 134, 145);
+}
+
+.flex-container {
+
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    border: 2px solid red;
+    width: 400px;
+    flex-wrap: wrap;
+
+
+}
+
+.boxes>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid pink;
+    flex-shrink: 0;
+}
+
+/* if boxes go out of the container in the direction of main axis it will wrap again main axis direction */
+.boxes2 {
+
+    display: flex;
+    border: 2px solid black;
+    /* flex-direction: column; */
+    width: 400px;
+    flex-wrap: wrap;
+    height: 500px;
+    /* flex-flow:  row  column-reverse;  */
+    /* doubt */
+    /* short hand property: flex flow is property that rights both it ie. flex-direction and flex-wrap  */
+}
+
+.boxes2>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    flex-shrink: 0;
+}
+
+#parent {
+    border: 2px solid black;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+     height: 500px; 
+    /* Start is always left
+    end is always right */
+    /* flex start is there where the main axis start
+    flex end is where the main axis end */
+}
+
+/* justify content works across main axis
+align items  works across cross axis */
+#parent2{
+      border: 2px solid black;
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
+      justify-content: space-between;
+
+}
+#parent3{
+    justify-content: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    align-items:center;
+    
+}
+#parent4{
+    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
