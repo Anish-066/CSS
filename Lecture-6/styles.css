@@ -1,0 +1,48 @@
+#child1 {
+ 
+}
+
+#child2 {
+    order: 1;
+    /* default value of order is always 0  */
+    /* it is a child property */
+}
+
+.container {
+    width: 200px;
+    border: 2px solid red;
+    /* flex-direction: column; */
+    height: 800px;
+
+}
+
+.box {
+    border: 2px solid pink;
+    height: 100px; 
+    flex-grow: 1 ;
+    /* width: 100px; */
+    /* flex-basis: 100px; */
+    /* we can use  flex-basis against of width in Row   */
+}
+
+#box2 {
+    /* flex-grow: 2; */
+}
+
+#box3 {
+    /* flex-grow: 2; */
+}
+.item-container{
+    height: 80vh;
+    width: 100%;
+    border: 2px solid black;
+     justify-content: center; 
+    align-items: center;
+.item{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(212, 59, 84);
+}
+item-1{
+    align-self: flex-start;
+}
