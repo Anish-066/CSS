@@ -1,0 +1,24 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*  nav starts */
+nav {
+    background-color: ;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+/* nav ends */

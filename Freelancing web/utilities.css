@@ -1,0 +1,56 @@
+/* layout utilites starts */
+.d-flex {
+    display: flex;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.justify-content-center {
+    justify-content: center;
+
+
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* layout utilites ends */
+
+/* button utilites starts */
+.btn {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+.btn-success {
+    background-color: ;
+    color: white;
+
+}
+
+/* button utilites ends */
+
+/* text utilites starts */
+.text-success {
+    color: ;
+}
+
+.text-muted {}
+
+/* text utilites ends */
+
+/* width-height */
